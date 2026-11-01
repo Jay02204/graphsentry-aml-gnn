@@ -1,0 +1,26 @@
+{
+  "pr_auc": 1.0,
+  "roc_auc": 1.0,
+  "f1_score": 0.9655,
+  "precision": 0.9333,
+  "recall": 1.0,
+  "specificity": 0.9972,
+  "confusion_matrix": {
+    "true_positives": 28,
+    "false_positives": 2,
+    "true_negatives": 722,
+    "false_negatives": 0
+  },
+  "operational_metrics": {
+    "total_accounts_evaluated": 752,
+    "total_mules": 28,
+    "total_licit": 724,
+    "decision_threshold": 0.45,
+    "alert_rate_pct": 3.99,
+    "false_alarm_ratio": 0.07
+  },
+  "optimal_tuning": {
+    "optimal_threshold": 0.6,
+    "optimal_f1": 1.0
+  }
+}
